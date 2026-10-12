@@ -272,7 +272,7 @@
 
 ## Calibration check (the 6σ tie-in)
 
-After your main training, look at the calibration plot from `train.py` (saved to `reports/figures/scratch_logreg_diagnostics.png`).
+After the main training run, the calibration plot from `train.py` (saved to `reports/figures/scratch_logreg_diagnostics.png`).
 
 **Was the model well-calibrated?** _TBD — open the PNG and describe the points vs the y=x line_
 
@@ -280,7 +280,7 @@ After your main training, look at the calibration plot from `train.py` (saved to
 
 **Why does this matter for the banknote fraud use case?** _TBD_
 
-**What's the one-line fix to improve calibration?** _TBD (hint: think about Platt scaling or isotonic regression — sklearn has both)_
+**What's the one-line fix for calibration?** _TBD (hint: think about Platt scaling or isotonic regression — sklearn has both)_
 
 ---
 
