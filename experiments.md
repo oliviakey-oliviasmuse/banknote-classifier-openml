@@ -454,7 +454,7 @@ A **false positive** (genuine note rejected as forged) is the cheaper error:
 
 **The bigger lesson:** the *right* threshold depends on the business context, not just on the data. For high-stakes, asymmetric-cost domains (fraud, medical diagnosis, security screening), the default 0.5 is almost always wrong. Tune the threshold to the cost ratio, not to a metric like F1 alone.
 
-**Why this matters for capital-intensive industries:** the operational tooling you build — flagging equipment failures, detecting quality defects, identifying safety violations — has the same asymmetric cost structure. A false negative (a real defect that goes undetected) is much more expensive than a false positive (an extra inspection). The pattern of lowering the threshold to catch more positives, at the cost of more false alarms, applies broadly.
+**Why this matters for capital-intensive industries:** the operational tooling developed from this methodology — flagging equipment failures, detecting quality defects, identifying safety violations — has the same asymmetric cost structure. A false negative (a real defect that goes undetected) is much more expensive than a false positive (an extra inspection). The pattern of lowering the threshold to catch more positives, at the cost of more false alarms, applies broadly.
 
 ---
 
