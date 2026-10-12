@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, roc_auc_score
 
 data = np.genfromtxt(
-    str(Path(__file__).resolve().parent.parent.parent / "data" / "raw" / "banknote.csv"),,
+    str(Path(__file__).resolve().parent.parent.parent / "data" / "raw" / "banknote.csv"),
     delimiter=",", skip_header=1,
 )
 X = data[:, :4].astype(np.float64)
