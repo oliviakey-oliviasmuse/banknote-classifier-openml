@@ -11,7 +11,7 @@ from logreg_scratch import train
 
 # Load + split (same as experiment)
 data = np.genfromtxt(
-    r"C:\Users\olivi\.minimax-agent\projects\openml-banknote-classifier\data\raw\banknote.csv",
+    str(Path(__file__).resolve().parent.parent.parent / "data" / "raw" / "banknote.csv"),,
     delimiter=",", skip_header=1,
 )
 X = data[:, :4].astype(np.float64)
