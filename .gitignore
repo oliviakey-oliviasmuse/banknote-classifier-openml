@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+
+# Logs
+logs/
+*.log
+
+# Local scratch — diagnostic outputs, intermediate files
+.local/
+*.bak
+*.tmp
+scripts/_*.txt
+scripts/_*.md
+
+# === INCLUDED in this repo (full snapshot of the deliverable) ===
+# data/raw/banknote.csv       — OpenML 1462 cache (46 KB, fully reproducible)
+# models/*.joblib             — trained stacking_calibrated + scaler (9.2 MB)
+# models/model_metadata.json  — model name + version + threshold
+# reports/audit_pack.json     — Six Sigma audit pack
+# reports/model_card.md       — model card
+# reports/control_plan.md     — operational control plan
+# reports/sipoc.md            — SIPOC + CTQ tree
+# reports/figures/*.png       — ROC + confusion matrix + calibration + CV DPMO
+# notebooks/*.ipynb           — 3 executed notebooks with outputs embedded
