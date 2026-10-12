@@ -1,7 +1,6 @@
 # Experiments Log — Logistic Regression from Scratch
 
-> Fill this in as you go. **Write your prediction before you run each experiment.** That's the habit that makes the experiments teach you something.
-
+> Each row records the prediction made before running the experiment. Documenting a hypothesis before seeing the result is what surfaces surprises — successful runs confirm, failed runs force an update.
 ---
 
 ## Setup
